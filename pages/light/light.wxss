@@ -1,0 +1,27 @@
+/* pages/light/light.wxss */
+image{
+  display: inherit;
+  display: flex;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 500rpx;
+  height: 200rpx;
+  border-radius: 30rpx;
+  overflow: auto;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.25);
+}
+switch{
+  margin-left: 230px;
+  margin-top: -67px;
+  display: flex;
+  flex-direction: column;
+}
+
+.light_wenzi {
+  font-size: 40rpx;
+  display: block;
+  margin-left: 100px;
+  margin-top: -32px;
+  color: #636363
+}

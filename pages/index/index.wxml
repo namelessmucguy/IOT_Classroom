@@ -1,0 +1,37 @@
+<wux-notification id="wux-notification" />
+<view class="page">
+  <image bindtap="pub0" class="image1" src="{{show?'https://ftp.bmp.ovh/imgs/2021/06/783e702c1a37fc05.png':'https://ftp.bmp.ovh/imgs/2021/06/d4bbcad60ca3c619.png'}}"></image>
+      <view class="light_wenzi0">
+        <text>开启电源</text>
+      </view>
+    <image bindtap="cilck1" src="{{'https://ftp.bmp.ovh/imgs/2021/06/52d7f7041527aef0.jpg'}}"></image>
+    <image bindtap="cilck2" src="{{'https://ftp.bmp.ovh/imgs/2021/06/02286ab65f824ee5.png'}}"></image>
+    <image bindtap="cilck3" src="{{'https://ftp.bmp.ovh/imgs/2021/06/d230a7fe5b35953d.jpg'}}"></image>
+    <view class="index_wenzi">
+        <text>灯光</text>
+      </view>
+    <view class="index_wenzi1">
+        <text>窗户</text>
+      </view>
+      <view class="index_wenzi2">
+        <text>门</text>
+      </view>
+      <view class='ServiceCenter'></view>
+</view>
+<view class='list-msg'>
+
+<!--下拉框  -->
+    <view class='list-msg2' bindtap='bindShowMsg'>
+        <text>{{tihuoWay}}</text>
+    </view>
+    <view class='list-msg1'>
+        <text>状态:</text>
+        <text>{{msg}}</text>
+        </view>
+<!-- 下拉需要显示的列表 -->
+    <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect" data-name="212">212</view>
+        <view class="select_one" bindtap="mySelect" data-name="404">404</view>
+        <view class="select_one" bindtap="mySelect" data-name="421">421</view>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/light/light",
+    "pages/door/door",
+    "pages/window/window",
+    "pages/finger/finger",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧教室",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle":"white",
+    "list": [{
+      "selectedIconPath": "images/首页1.png",
+      "iconPath": "images/111.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, 
+    {
+      "selectedIconPath": "images/课表.png",
+      "iconPath": "images/课表.png",
+      "pagePath": "pages/finger/finger",
+      "text": "考勤"
+    }, 
+     {
+      "selectedIconPath": "images/数据.png",
+      "iconPath": "images/数据.png",
+      "pagePath": "pages/index1/index1",
+      "text": "环境"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,100 @@
+/* pages/index1/index1.wxss */
+image{
+  display: inherit;
+  display: -webkit-flex;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 300rpx;
+  height: 200rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.25);
+}
+.img {
+  margin-left: 30px;
+  margin-top: -80px;
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.img1 {
+  margin-left: 210px;
+  margin-top: -20px;
+  width: 120rpx;
+  height: 120rpx;
+}
+.door_wenzi {
+  font-size: 40rpx;
+  display: block;
+  margin-left: 110px;
+  margin-top: -70px;
+  color: #636363
+}
+
+.wen {
+  font-size: 40rpx;
+  display: block;
+  margin-left: 90px;
+  margin-top: -30px;
+  color: #636363
+}
+
+.shi {
+  font-size: 40rpx;
+  display: block;
+  margin-left: 265px;
+  margin-top: -25px;
+  color: #636363
+}
+
+.door_wenzi1 {
+  font-size: 40rpx;
+  display: block;
+  margin-left: 280px;
+  margin-top: -25px;
+  color: #636363
+}
+.mini-btn{
+  margin-top: 150rpx;
+  margin-left: 20px;
+  margin-bottom: 30rpx;
+}
+
+.pic {
+  margin-left: 130px;
+  margin-top: -145px;
+  width: 120rpx;
+  height: 120rpx;
+}
+.tem {
+  font-size: 70rpx;
+  display: block;
+  margin-left: 180px;
+  margin-top: 15px;
+  color: #636363
+}
+.oc {
+  font-size: 70rpx;
+  display: block;
+  margin-left: 230px;
+  margin-top: -45px;
+  color: #636363
+}
+
+.image1{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 60px;
+  width: 175rpx;
+  height: 175rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.25);
+}
+.light_wenzi0 {
+  font-size: 40rpx;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #7a7878
+}

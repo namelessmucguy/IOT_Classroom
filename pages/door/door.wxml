@@ -1,0 +1,13 @@
+<!--pages/door/door.wxml-->
+<image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
+<switch type="switch"  bindchange="light_Switch"/>
+<view class="door_wenzi">
+        <text>前门</text>
+      </view>
+
+
+      <image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
+        <switch type="switch" bindchange="light_Switch1"/>
+        <view class="door_wenzi">
+        <text>后门</text>
+      </view>

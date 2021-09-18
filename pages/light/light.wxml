@@ -1,0 +1,29 @@
+<!--pages/light/light.wxml-->
+
+      <image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
+<switch type="switch"  bindchange="light_Switch"/>
+<view class="light_wenzi">
+        <text>前排灯光</text>
+      </view>
+
+
+      <image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
+        <switch type="switch"  bindchange="light_Switch1"/>
+        <view class="light_wenzi">
+        <text>后排灯光</text>
+      </view>
+
+
+      <image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
+        <switch type="switch" bindchange="light_Switch2"/>
+        <view class="light_wenzi">
+        <text>两侧灯光</text>
+      </view>
+
+
+      <image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
+        <switch type="switch" bindchange="light_Switch3"/>
+        <view class="light_wenzi">
+        <text>中间灯光</text>
+      </view>
+

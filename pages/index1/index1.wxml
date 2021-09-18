@@ -1,0 +1,43 @@
+<!--pages/index1/index1.wxml-->
+
+<image src='https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png'></image >
+  <image src='https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png'></image >
+
+  <cover-image class='img' src='/images/温度.png'></cover-image>
+ 
+  
+<view class="door_wenzi">
+        <text>温度</text>
+      </view>
+      
+      <view class="door_wenzi1">
+        <text>湿度</text>
+      </view>
+
+ <cover-image class='img1' src='/images/湿度.png'></cover-image>
+
+ <view class='wen'>
+        <text>{{wen}}</text>
+        </view>
+        
+        <view class='shi'>
+        <text>{{shi}}</text>
+        </view>
+
+        <view class="mini-btn">
+        <button class="mini-btn" bindtap="temp_up" type="default" size="mini">+</button>
+        <button class="mini-btn" bindtap="temp_down" type="default" size="mini">-</button>
+      </view>
+      <view class="pic">
+      <image src='https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png'></image >
+      </view>
+      <view class='tem'>
+        <text>{{tem}}</text>
+        </view>
+        <view class='oc'>
+        <text>{{oc}}</text>
+        </view>
+        <image bindtap="air" class="image1" src="{{show?'https://ftp.bmp.ovh/imgs/2021/06/783e702c1a37fc05.png':'https://ftp.bmp.ovh/imgs/2021/06/d4bbcad60ca3c619.png'}}"></image>
+      <view class="light_wenzi0">
+        <text>开启空调</text>
+      </view>

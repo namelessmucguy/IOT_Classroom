@@ -1,0 +1,130 @@
+/**index.wxss**/
+button{
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+}
+.image1{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 60px;
+  width: 175rpx;
+  height: 175rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.25);
+}
+image{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 60px;
+  width: 310rpx;
+  height: 200rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.25);
+}
+.index_wenzi {
+  font-size: 40rpx;
+  margin-left: 120px;
+  margin-top: -230px;
+  display: flex;
+  flex-direction: column;
+  color: #7a7878
+}
+.light_wenzi0 {
+  font-size: 40rpx;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #7a7878
+}
+.index_wenzi1 {
+  font-size: 40rpx;
+  margin-left: 315px;
+  margin-top: -25px;
+  display: flex;
+  flex-direction: column;
+  color: #7a7878
+}
+.index_wenzi2 {
+  font-size: 40rpx;
+  margin-left: 130px;
+  margin-top: 135px;
+  display: flex;
+  flex-direction: column;
+  color: #7a7878
+}
+.ServiceCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750rpx;      /*高宽大小根据个人情况自己调试*/
+  height: 1150rpx;
+  margin-top: -290px;
+  background-repeat:no-repeat; /** 不重复*/
+  background-size:100% 100%; /**等比例缩放*/
+  -moz-background-size: 100% 100%;
+  background-image: url('htps://ftp.bmp.ovh/imgs/2021/05/0ce770e16b074eb7.jpg')
+}
+.list-msg {
+  padding: 0 180rpx;
+  margin-top: -790px;
+  margin-left: 80px;
+  border-radius: 50rpx;
+  overflow: visible;
+}
+
+.list-msg1 {
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+
+}
+
+.list-msg .list-msg2 {
+  height: 70rpx;
+  width: 110rpx;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0 10rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.15);
+}
+
+.select_box {
+  background-color: #eee;
+  padding: 0 10rpx;
+  width: 93%;
+  position: absolute;
+  top: 145rpx;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+  margin-top: 38px;
+}
+
+@keyframes myfirst {
+  from {
+      height: 0rpx;
+  }
+
+  to {
+      height: 210rpx;
+  }
+}
+
+.select_one {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+

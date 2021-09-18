@@ -1,0 +1,22 @@
+<!--pages/window/window.wxml-->
+
+<view class="selconbox">
+        <view class="seltit">窗户（一）</view>
+        <view class="progressbox">
+          <view class="zijintit" wx:if="{{price == 0}}">未开启</view>
+          <view class="zijintit1" wx:elif="{{price == 100}}">最大开启</view>
+          <view class="zijintit2" wx:else>{{price}}%</view>
+          <slider bindchanging="zijinchange" 
+                  bindchange="zijinchange" 
+                    step="25" 
+                    min="0" 
+                    max="100"
+                    value="{{price}}"
+                    backgroundColor="#dcdcdc"
+                    activeColor="#505050"
+                    block-size="20"
+                    block-color="#fff" />
+     
+        </view>
+      </view>
+      <image src="https://ftp.bmp.ovh/imgs/2021/06/7f557e1093d31d94.png"></image >
